@@ -1,0 +1,310 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box ;
+}
+
+nav{
+    text-align: center;
+    height: 100px;
+}
+
+.navtop-left{
+    float: left;
+    display:block;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navtop-right{
+    margin-right: 50px;
+}
+
+.navtop-right ul{  
+    float: right;
+    list-style-type: none;
+}
+
+.navtop-right ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.navtop-right ul a{
+    text-decoration: none;
+    display: inline;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+
+.navtop-right ul a  i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    background-color: #c7a787;
+    border-radius: 50%;
+}
+
+.bg{
+    height: 600px;
+    background-color: #c2beba;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bg h2{
+    color: #ffffff;
+    padding-top: 225px;
+    font-size: 40px;
+    font-weight: 200;
+}
+
+.bg h4{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.bg .b1{
+    width: 200px;
+    height: 50px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    background-color: #c7a787;
+}
+
+.bg .b2{
+    width: 150px;
+    height: 50px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.bgi{
+    width: 100%;
+    background-image: url("https://c0.wallpaperflare.com/preview/330/490/484/business-office-computer-flatlay.jpg");
+    height: 550px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.bg1{
+    background-color: #e6e6e6;
+    height: 550px;
+    width: 50%;
+    opacity: 0.9;
+}
+
+.bg1 h2{
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    margin-left: 80px;
+    padding-top: 250px;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.bg1 h4{
+    color:#ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 80px;
+    margin-top: 10px;
+    opacity: 1;
+}
+
+.bg1 button{
+    margin-left: 80px;
+    margin-top: 10px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 700;
+    /* opacity: 1; */
+}
+
+/* Company */
+
+.company h3{
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.company h5{
+    font-size: 25px;
+    text-align: center;
+    color: #ffb8b8;
+}
+
+.company h4{
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+    font-size: 25px;
+    font-weight:400;
+}
+
+.company span{
+    font-size: 15px;
+    color: #ffb8b8;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
+.grid{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.company .grid i{
+    float: right;
+    font-size: 60px;
+    margin-right: 40px;
+    margin-top: 10px;   
+    display: flex;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #ffb8b8;
+    align-items: center;
+    justify-content: center;
+}
+
+.testimony{
+    background-image: url('https://wallpapercave.com/wp/wp2620447.jpg');
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    margin-top: 30px;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.testimony h2{
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.testimony h3{
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.testimony span{
+    color: #f5f5f5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.grid1{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.testimony .grid1 i{
+    font-size: 150px;
+    margin-bottom: 20px;
+    color: #f5f5f5;
+}
+
+.testimony .grid1 .special{
+    opacity: 0.5;
+}
+
+.news{
+    height: 400px;
+    background-color: #383838;
+    text-align: center;
+}
+
+.news h4{
+    padding-top: 100px;
+    color: #ffffff;
+    font-size: 45px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.news input{
+    width: 400px;
+    height: 60px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    color: #000000;
+}
+
+.news button{
+    height: 60px;
+    width: 100px;
+    border-radius: 5px;
+    margin-left: 0px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7bd8b;
+    color: #ffffff;
+}
+
+.news form{
+    padding-bottom: 25px;
+}
+.news span{
+    padding-top: 30px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+}
+
+.sp1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #c4c0c0;
+    margin-left: 80px;
+    padding: 15px;
+}
+
+.sp2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000; 
+    margin-left: 80px;
+    padding: 15px;
+}
+
+.sp3{
+    height: 100px;
+    background-color: #c2beba ;
+}
